@@ -18,16 +18,27 @@ session = Session(engine)
 
 app = Flask(__name__)
 @app.route("/")
-
 def welcome():
     return(
-        f"Welcome to the Climate Analysis API!\n"
-        f"Available Routes:\n"
-        f"/api/v1.0/precipitation\n"
-        f"/api/v1.0/stations\n"
-        f"/api/v1.0/tobs\n"
-        f"/api/v1.0/temp/start/end\n"
-        )
+   '''
+   Welcome to the Climate Analysis API!\n
+   Available Routes:
+   /api/v1.0/precipitation
+   /api/v1.0/stations
+   /api/v1.0/tobs
+   /api/v1.0/temp/start/end
+   ''')    
+   
+    # return(
+    #     f"Welcome to the Climate Analysis API!<br/>"
+    #     f"Available Routes:<br/>"
+    #     f"/api/v1.0/precipitation<br/>"
+    #     f"/api/v1.0/stations<br/>"
+    #     f"/api/v1.0/tobs<br/>"
+    #     f"/api/v1.0/temp/start/end<br/>"
+    #     )
+  
+
 
 @app.route("/api/v1.0/precipitation")
 def precipitation():
