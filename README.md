@@ -32,13 +32,13 @@ After the initial analysis, the investor requested additional temperature data, 
 Overall, the analysis makes a strong case for the success of surf and shake shop business year-round with the exception of evening/morning lower temperatures in december where the business may require shorter hours. 
 
 In order to incite more confidence in the anaylsis, we can run a few additional queries:
-1) We can create a query to provide tobs for the month of June and December. We can then create a histogram based on the data to show temperature trends.
+- We can create a query to provide tobs for the month of June and December. We can then create a histogram based on the data to show temperature trends.
 
 <br />
 <img src="Resources/jun_dec_histogram.png" width=700 align=center>
 <br />
 
-2) Another useful graph will be to analysis precipitation levels in the two months that can help evaluate how much it rained and if it rained everyday.
+- Another useful graph will be to analysis precipitation levels in the two months that can help evaluate how much it rained and if it rained everyday.
  
 <br />
 <img src="Resources/jun_dec_precipitation.png" width=700 align=center>
